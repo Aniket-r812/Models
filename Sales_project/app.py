@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Load data
 
-df = pd.read_pickle("Clustered_data.pkl")  # your df_sort saved as csv
+df = pd.read_pickle("Sales_project/Clustered_data.pkl")  # your df_sort saved as csv
 
 st.set_page_config(page_title="Sales Cluster Dashboard", layout="wide")
 
